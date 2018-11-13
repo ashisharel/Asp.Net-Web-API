@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3185E0C6-B39D-45C1-8228-689336A75AB3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibertyWebAPI.DataModel</RootNamespace>
+    <AssemblyName>LibertyWebAPI.DataModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contracts\IAccessoryRepository .cs" />
+    <Compile Include="Contracts\ICatalogRepository.cs" />
+    <Compile Include="Contracts\ICategoryRepository.cs" />
+    <Compile Include="Contracts\IFOAAccountValidationRepository.cs" />
+    <Compile Include="Contracts\IFOASaveRepository.cs" />
+    <Compile Include="Contracts\IInstitutionRepository.cs" />
+    <Compile Include="Contracts\IFOABranchListRepository.cs" />
+    <Compile Include="Contracts\IOrderHistoryRepository.cs" />
+    <Compile Include="Contracts\IOrderPricingRepository.cs" />
+    <Compile Include="Contracts\IOrderSubmitRepository.cs" />
+    <Compile Include="Contracts\ILastRepricedRepository.cs" />
+    <Compile Include="Contracts\IAccessoryCategoryRepository.cs" />
+    <Compile Include="Contracts\IProductRepository.cs" />
+    <Compile Include="Contracts\IShippingOptionsRepository.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="OutputParameter.cs" />
+    <Compile Include="Parameter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AccessoryRepository.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\CatalogRepository.cs" />
+    <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\FOAAccountValidationRepository.cs" />
+    <Compile Include="Repositories\FOABranchListRepository.cs" />
+    <Compile Include="Repositories\FOASaveRepository.cs" />
+    <Compile Include="Repositories\InstitutionRepository.cs" />
+    <Compile Include="Repositories\OrderHistoryRepository.cs" />
+    <Compile Include="Repositories\OrderPricingRepository.cs" />
+    <Compile Include="Repositories\OrderSubmitRepository .cs" />
+    <Compile Include="Repositories\LastRepricedRepository.cs" />
+    <Compile Include="Repositories\AccessoryCategoryRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Repositories\ShippingOptionsRepository.cs" />
+    <Compile Include="Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibertyWebAPI.BusinessEntities\LibertyWebAPI.BusinessEntities.csproj">
+      <Project>{672b2c2f-5bb8-4914-82be-7cc8f8f0fb60}</Project>
+      <Name>LibertyWebAPI.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibertyWebAPI.DTO\LibertyWebAPI.DTO.csproj">
+      <Project>{800259a7-98a8-4349-8e30-868a9c91a047}</Project>
+      <Name>LibertyWebAPI.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

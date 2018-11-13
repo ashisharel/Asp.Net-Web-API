@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibertyWebAPI", "LibertyWebAPI\LibertyWebAPI.csproj", "{96A39EEB-4E03-452B-9E61-69E67E75CD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibertyWebAPI.BusinessEntities", "LibertyWebAPI.BusinessEntities\LibertyWebAPI.BusinessEntities.csproj", "{672B2C2F-5BB8-4914-82BE-7CC8F8F0FB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibertyWebAPI.BusinessServices", "LibertyWebAPI.BusinessServices\LibertyWebAPI.BusinessServices.csproj", "{A895C2D6-7F48-4407-9819-68B6A6EACA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibertyWebAPI.DataModel", "LibertyWebAPI.DataModel\LibertyWebAPI.DataModel.csproj", "{3185E0C6-B39D-45C1-8228-689336A75AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibertyWebAPI.DTO", "LibertyWebAPI.DTO\LibertyWebAPI.DTO.csproj", "{800259A7-98A8-4349-8E30-868A9C91A047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibertyWebAPI.UnitTest", "LibertyWebAPI.UnitTest\LibertyWebAPI.UnitTest.csproj", "{B32D4B11-E5BB-40AF-A972-20DD77EE97E1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://atlw-libweb-d1:8080/tfs/liberty
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LibertyWebAPI\\LibertyWebAPI.csproj
+		SccProjectName1 = LibertyWebAPI
+		SccLocalPath1 = LibertyWebAPI
+		SccProjectUniqueName2 = LibertyWebAPI.BusinessEntities\\LibertyWebAPI.BusinessEntities.csproj
+		SccProjectName2 = LibertyWebAPI.BusinessEntities
+		SccLocalPath2 = LibertyWebAPI.BusinessEntities
+		SccProjectUniqueName3 = LibertyWebAPI.BusinessServices\\LibertyWebAPI.BusinessServices.csproj
+		SccProjectName3 = LibertyWebAPI.BusinessServices
+		SccLocalPath3 = LibertyWebAPI.BusinessServices
+		SccProjectUniqueName4 = LibertyWebAPI.DataModel\\LibertyWebAPI.DataModel.csproj
+		SccProjectName4 = LibertyWebAPI.DataModel
+		SccLocalPath4 = LibertyWebAPI.DataModel
+		SccProjectUniqueName5 = LibertyWebAPI.DTO\\LibertyWebAPI.DTO.csproj
+		SccProjectName5 = LibertyWebAPI.DTO
+		SccLocalPath5 = LibertyWebAPI.DTO
+		SccProjectUniqueName6 = LibertyWebAPI.UnitTest\\LibertyWebAPI.UnitTest.csproj
+		SccProjectName6 = LibertyWebAPI.UnitTest
+		SccLocalPath6 = LibertyWebAPI.UnitTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96A39EEB-4E03-452B-9E61-69E67E75CD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A39EEB-4E03-452B-9E61-69E67E75CD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A39EEB-4E03-452B-9E61-69E67E75CD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A39EEB-4E03-452B-9E61-69E67E75CD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672B2C2F-5BB8-4914-82BE-7CC8F8F0FB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672B2C2F-5BB8-4914-82BE-7CC8F8F0FB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672B2C2F-5BB8-4914-82BE-7CC8F8F0FB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672B2C2F-5BB8-4914-82BE-7CC8F8F0FB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A895C2D6-7F48-4407-9819-68B6A6EACA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A895C2D6-7F48-4407-9819-68B6A6EACA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A895C2D6-7F48-4407-9819-68B6A6EACA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A895C2D6-7F48-4407-9819-68B6A6EACA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3185E0C6-B39D-45C1-8228-689336A75AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3185E0C6-B39D-45C1-8228-689336A75AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3185E0C6-B39D-45C1-8228-689336A75AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3185E0C6-B39D-45C1-8228-689336A75AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{800259A7-98A8-4349-8E30-868A9C91A047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800259A7-98A8-4349-8E30-868A9C91A047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800259A7-98A8-4349-8E30-868A9C91A047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800259A7-98A8-4349-8E30-868A9C91A047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32D4B11-E5BB-40AF-A972-20DD77EE97E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32D4B11-E5BB-40AF-A972-20DD77EE97E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
